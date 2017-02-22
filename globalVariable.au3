@@ -26,3 +26,14 @@ Global $btnUploadSocks = GUICtrlCreateButton("Tai file socks", 456, 344, 91, 25)
 Global $setting_ini[][2]= [['setting.ini', 'ten-file'], ['iniLogEnable', 1], ['iniLogWrite', 1], ['iniDefaultUploadFile', @ScriptDir]]
 Global $addr_ads = 'http://adiphy.com/'
 #EndRegion
+#Region config firefox
+Global $sock_port = 'network.proxy.socks_port'
+Global $sock_address = 'network.proxy.socks'
+Global $sock_remote_ads = 'network.proxy.socks_remote_dns'
+Global $sock_sersion = 'network.proxy.socks_version'
+Global $sock_port_type[][] = [['network.proxy.type', 'config type network'], ['manual',1], ['automatic', 2], ['no_proxy', '3'], ['auto_detect', 4]]
+
+#EndRegion
+#Region Random
+Global $random_key[22] = ['{SPACE}', '{ENTER}', '{ALT}', '{BACKSPACE}', '{DELETE}', '{UP}', '{DOWN}', '{LEFT}', '{RIGHT}', '{HOME}', '{END}', '{ESCAPE}', '{INSERT}', '{PGUP}', '{PGDN}', '{TAB}', '{PRINTSCREEN}', '{LWIN}', '{RWIN}', '{NUMLOCK toggle}', '{CAPSLOCK toggle}', '{SCROLLLOCK toggle}']
+#EndRegion
